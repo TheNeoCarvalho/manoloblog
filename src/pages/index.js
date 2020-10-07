@@ -53,16 +53,16 @@ const Home = ({ className, location }) => {
                 alt='user avatar'
               />
               <div className="social">
-                {siteConfig.social.github && <a className="social-link github" href={siteConfig.social.github}>
+                {siteConfig.social.github && <a className="social-link github" target="_blank" href={siteConfig.social.github}>
                   <FaGithub className="social-icon" size="32" />
                 </a>}
-                {siteConfig.social.linkedin && <a className="social-link linkedin" href={siteConfig.social.linkedin}>
+                {siteConfig.social.linkedin && <a className="social-link linkedin" target="_blank" href={siteConfig.social.linkedin}>
                   <FaLinkedin className="social-icon" size="32" />
                 </a>}
-                {siteConfig.social.twitter && <a className="social-link twitter" href={siteConfig.social.twitter}>
+                {siteConfig.social.twitter && <a className="social-link twitter" target="_blank" href={siteConfig.social.twitter}>
                   <FaTwitter className="social-icon" size="32" />
                 </a>}
-                {siteConfig.social.email && <a className="social-link email" href={`mailto:${siteConfig.social.email}`}>
+                {siteConfig.social.email && <a className="social-link email" target="_blank" href={`mailto:${siteConfig.social.email}`}>
                   <FaEnvelope className="social-icon" size="32" />
                 </a>}
               </div>

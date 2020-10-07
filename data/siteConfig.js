@@ -114,7 +114,8 @@ module.exports = {
     twitter: "https://twitter.com/neo_carvalho",
     linkedin: "https://www.linkedin.com/in/franciscomanoelcarvalho",
     github: "https://github.com/TheNeoCarvalho",
-    email: "manoelmecat@gmail.com"
+    email: "manoelmecat@gmail.com",
+    site: "https://manolodev.netlify.app"
   },
   siteUrl: 'https://TheNeoCarvalho.github.io/manoloblog',
   pathPrefix: '/manoloblog', // Note: it must *not* have a trailing slash.

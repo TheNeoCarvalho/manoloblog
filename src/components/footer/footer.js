@@ -1,11 +1,11 @@
 import React from 'react'
 import styled from 'styled-components'
-import { FaGithub, FaTwitter, FaLinkedin } from "react-icons/fa"
+import { FaGithub, FaTwitter, FaLinkedin, FaFirefox } from "react-icons/fa"
 import { config } from 'react-awesome-styled-grid';
 import siteConfig from '../../../data/siteConfig'
 
 const Link = styled(({ className, icon: Icon, color, ...props }) => (
-  <a 
+  <a
     className={className}
     target='_blank'
     rel="noopener noreferrer"
@@ -24,6 +24,7 @@ const Footer = ({ className }) => {
     twitter,
     linkedin,
     github,
+    site
   } = siteConfig.social
   return (
     <footer className={className}>
@@ -32,6 +33,7 @@ const Footer = ({ className }) => {
         {github && <Link href={github} icon={FaGithub} />}
         {twitter && <Link href={twitter} icon={FaTwitter} />}
         {linkedin && <Link href={linkedin} icon={FaLinkedin} />}
+        {site && <Link href={site} icon={FaFirefox} />}
       </div>
     </footer>
   )
