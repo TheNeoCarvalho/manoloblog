@@ -62,7 +62,7 @@ class Repositories extends React.Component {
                   href={`https://github.com/${siteConfig.githubUsername}`}
                   target="_blank"
                 >
-                  Veja todos os repositories
+                  Veja todos os repositórios
                   <GoLinkExternal style={{ marginLeft: 8 }} />
                 </a>
               </div>
