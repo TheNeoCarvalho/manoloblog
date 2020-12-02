@@ -11,8 +11,8 @@ import Wrapper from '../components/wrapper'
 const Layout = loadable(() => import('../components/layout'))
 
 const Image = styled.img`
-  max-height: 220px;
-  max-width: 220px;
+  max-height: 260px;
+  max-width:300px;
   object-fit: cover;
   object-position: center center;
   border-radius: 10px;
@@ -42,7 +42,7 @@ const Portifolio = ({ className, location }) => {
       />
 
       <Hero
-        heroImg={withPrefix('/images/pierre-chatel-innocenti-W5INoOK-5eI-unsplash.jpeg')}
+        heroImg={withPrefix('/images/portfolio.jpg')}
         title={title}
       />
 
@@ -51,15 +51,18 @@ const Portifolio = ({ className, location }) => {
           <Row>
             {portifolio.map(job => (
               <Col
+                xs={6} md={4}
                 key={job.description}
-                align="center"
+                align="justify"
               >
                 <JobCard
                   as={job.url ? "a" : "div"}
                   href={job.url}
                   target="_blank"
                 >
+
                   <Image src={withPrefix(job.image)} />
+                  <p>{job.title}</p>
                   <p>{job.description}</p>
                 </JobCard>
               </Col>

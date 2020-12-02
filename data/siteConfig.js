@@ -99,13 +99,33 @@ module.exports = {
   ],
   portifolio: [
     {
-      image: "https://balloondesignbrasil.com.br/wp-content/uploads/2016/08/aguarde-white.png",
-      description: "Em breve",
-      url: "#"
+      image: "/images/gostack.png",
+      title: "GoStack - Rocketseat.",
+      description: "Desafio final - Criação da API com NodeJS, Frontend com ReactJS e App com React Native.",
+      url: "https://github.com/TheNeoCarvalho/Desafio-Meetapp"
     },
     {
-      image: "https://balloondesignbrasil.com.br/wp-content/uploads/2016/08/aguarde-white.png",
-      description: "Em breve",
+      image: "/images/port.gif",
+      title: "Manolodev",
+      description: "Site/Blog Pessoal.",
+      url: "https://manolodev.tech"
+    },
+    {
+      image: "/images/meme.gif",
+      title: "Gerador de Memes",
+      description: "Web App gerador de memes criado com ReactJS e consumindo API do imgflip.com.",
+      url: "https://meme-generate-pmpzfik9i.vercel.app"
+    },
+    {
+      image: "/images/openWeather.png",
+      title: "Open Weather - App",
+      description: "App criado com Expo e React Native para acompanhar informações meteorológicas.",
+      url: "https://github.com/TheNeoCarvalho/WeatherApp"
+    },
+    {
+      image: "/images/rocketfy.gif",
+      title: "Rocketfy",
+      description: "Recriando a interface da Rocketfy com ReactJS.",
       url: "#"
     },
     /* more portifolio items here */
@@ -115,11 +135,11 @@ module.exports = {
     linkedin: "https://www.linkedin.com/in/franciscomanoelcarvalho",
     github: "https://github.com/TheNeoCarvalho",
     email: "manoelmecat@gmail.com",
-    site: "https://manolodev.netlify.app"
+    site: "https://manolodev.tech"
   },
   siteUrl: 'https://TheNeoCarvalho.github.io/manoloblog',
   pathPrefix: '/manoloblog', // Note: it must *not* have a trailing slash.
-  siteCover: '/images/cover.jpg',
+  siteCover: '/images/web-design-development.jpg',
   googleAnalyticsId: 'UA-000000000-1',
   background_color: '#ffffff',
   theme_color: '#25303B',
