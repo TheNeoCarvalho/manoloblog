@@ -126,7 +126,19 @@ module.exports = {
       image: "/images/rocketfy.gif",
       title: "Rocketfy",
       description: "Recriando a interface da Rocketfy com ReactJS.",
-      url: "#"
+      url: "https://rocketfy-app.vercel.app"
+    },
+    {
+      image: "/images/bb.gif",
+      title: "Breaking Bad",
+      description: "Criando Web App com ReactJS para consumindo API do Breaking Bad",
+      url: "https://breakingbad-6xlbvj0np.now.sh"
+    },
+    {
+      image: "/images/wa.gif",
+      title: "Weather Web App",
+      description: "Criando Web App com ReactJS para acompanhar informações meteorológicas.",
+      url: "https://sharp-volhard-19cc12.netlify.app"
     },
     /* more portifolio items here */
   ],
