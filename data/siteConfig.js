@@ -1,9 +1,9 @@
 module.exports = {
-  siteTitle: 'OI! Eu sou o Manolo!',
+  siteTitle: 'Oi! Eu sou o Manolo!',
   siteDescription: `Meu site portifólio`,
   keyWords: ['gatsbyjs', 'react', 'react native', 'nodejs'],
   authorName: 'Manoel Carvalho',
-  twitterUsername: 'manolocarvaljo',
+  twitterUsername: 'manolocarvalho',
   githubUsername: 'TheNeoCarvalho',
   authorAvatar: 'https://media-exp1.licdn.com/dms/image/C5603AQFeV_afcKuwbQ/profile-displayphoto-shrink_200_200/0?e=1607558400&v=beta&t=Sf8_g0n2-3p7Y6iuC2UKDC879eNxbXMHXwM4MFfgijs',
   authorDescription: `Estudante e amante de novas tecnologias.
@@ -56,6 +56,17 @@ module.exports = {
   ],
   jobs: [
     /* more jobs here */
+    {
+      company: "MOL - Mediação Online",
+      begin: {
+        month: 'dez',
+        year: '2020'
+      },
+      duration: null,
+      occupation: "Backend Developer - Pleno",
+      description: "Desenvolvimento Backend com Nodejs"
+
+    },
     {
       company: "EEEP Profª Maria Célia Pinheiro Falcão",
       begin: {
