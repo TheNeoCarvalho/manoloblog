@@ -5,15 +5,13 @@ module.exports = {
   authorName: 'Manoel Carvalho',
   twitterUsername: 'manolocarvalho',
   githubUsername: 'TheNeoCarvalho',
-  authorAvatar: 'https://media-exp1.licdn.com/dms/image/C5603AQFeV_afcKuwbQ/profile-displayphoto-shrink_200_200/0?e=1607558400&v=beta&t=Sf8_g0n2-3p7Y6iuC2UKDC879eNxbXMHXwM4MFfgijs',
-  authorDescription: `Estudante e amante de novas tecnologias.
-                      <p>Professor/Coordenador na EEEP Profª Maria Célia Pinheiro Falção.</p>
-                      <p>FullStack Developer JS</p>
-                      <ul>
-                      <li><span>NodeJS</span></li>
-                      <li><span>ReactJS</span></li>
-                      <li><span>React Native</span></li>
-                      </ul>
+  authorAvatar: 'https://media-exp1.licdn.com/dms/image/C5603AQFeV_afcKuwbQ/profile-displayphoto-shrink_200_200/0/1569354552159?e=1618444800&v=beta&t=gvTmMFqNDdpYwypUsz5QMYJPbYuNqEIUXzhBFISwFAE',
+  authorDescription: `<p>Estudante e amante de novas tecnologias.</p>
+                      <p>Professor EMI/Coordenador<br/>
+                      EEEP Profª Maria Célia Pinheiro Falção</p>
+                      <hr/>
+                      <p>Backend Developer Pleno<br/>
+                      MOL - Mediação Online</p>
                      `,
   skills: [
     {
@@ -64,7 +62,7 @@ module.exports = {
       },
       duration: null,
       occupation: "Backend Developer - Pleno",
-      description: "Desenvolvimento Backend com Nodejs"
+      description: "Desenvolvedor Backend com Nodejs"
 
     },
     {

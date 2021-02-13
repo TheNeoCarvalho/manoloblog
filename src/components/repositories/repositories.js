@@ -60,6 +60,7 @@ class Repositories extends React.Component {
               <div className="repositories_user-link">
                 <a
                   href={`https://github.com/${siteConfig.githubUsername}`}
+                  rel="noreferrer"
                   target="_blank"
                 >
                   Veja todos os repositórios
