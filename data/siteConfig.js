@@ -5,7 +5,7 @@ module.exports = {
   authorName: 'Manoel Carvalho',
   twitterUsername: 'manolocarvalho',
   githubUsername: 'TheNeoCarvalho',
-  authorAvatar: 'https://media-exp1.licdn.com/dms/image/C5603AQFeV_afcKuwbQ/profile-displayphoto-shrink_200_200/0/1569354552159?e=1618444800&v=beta&t=gvTmMFqNDdpYwypUsz5QMYJPbYuNqEIUXzhBFISwFAE',
+  authorAvatar: 'https://media-exp3.licdn.com/dms/image/C4D03AQFGziabnNP3Kw/profile-displayphoto-shrink_800_800/0/1624746672528?e=1631750400&v=beta&t=0sryiRSDwRpo-M42c2wCd4aqOsxgaMZKJEE_sNhVlqQ',
   authorDescription: `<p>Estudante e amante de novas tecnologias.</p>
                       <p>Professor EMI/Coordenador<br/>
                       EEEP Profª Maria Célia Pinheiro Falção</p>
