@@ -156,12 +156,13 @@ module.exports = {
     linkedin: "https://www.linkedin.com/in/franciscomanoelcarvalho",
     github: "https://github.com/TheNeoCarvalho",
     email: "manoelmecat@gmail.com",
+    instagram: "https://instagram.com/manolocarvalho",
     site: "https://manolodev.tech"
   },
   siteUrl: 'https://TheNeoCarvalho.github.io/manoloblog',
   pathPrefix: '/manoloblog', // Note: it must *not* have a trailing slash.
   siteCover: '/images/web-design-development.jpg',
-  googleAnalyticsId: 'UA-000000000-1',
+  googleAnalyticsId: 'G-Z0TL5JT67J',
   background_color: '#ffffff',
   theme_color: '#25303B',
   fontColor: "#000000cc",
@@ -176,6 +177,10 @@ module.exports = {
     {
       label: 'Portifolio',
       url: '/portifolio',
+    },
+    {
+      label: 'Contato',
+      url: '/contact',
     }
   ]
 }

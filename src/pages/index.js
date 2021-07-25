@@ -25,7 +25,7 @@ const Separator = styled.hr`
 
 const Home = ({ className, location }) => {
   // validate siteConfig settings
-  if (siteConfig.googleAnalyticsId === 'UA-000000000-1') {
+  if (siteConfig.googleAnalyticsId === 'G-Z0TL5JT67J') {
     console.error('WARNING: Please set a proper googleAnalyticsId. See https://analytics.google.com for details.');
   }
 
@@ -50,7 +50,7 @@ const Home = ({ className, location }) => {
               <img
                 className='avatar__image'
                 src={withPrefix(siteConfig.authorAvatar)}
-                alt='user avatar'
+                alt='Manoel Carvalho'
               />
               <div className="social">
                 {siteConfig.social.github && <a className="social-link github" rel="noreferrer" target="_blank" href={siteConfig.social.github}>
