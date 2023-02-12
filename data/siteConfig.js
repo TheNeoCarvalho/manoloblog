@@ -62,7 +62,7 @@ module.exports = {
       },
       duration: null,
       occupation: "FullStack Developer - Sênior",
-      description: "Nodejs - ReactJS - React Native"
+      description: "FullStack Developer - Nodejs/ReactJS/React Native"
 
     },
     {
