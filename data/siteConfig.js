@@ -7,20 +7,16 @@ module.exports = {
   githubUsername: 'TheNeoCarvalho',
   authorAvatar: '/images/perfil.jpg',
   authorDescription: `<p>Estudante e amante de novas tecnologias.</p>
-                      <p>Professor EMI/Coordenador<br/>
-                      EEEP Profª Maria Célia Pinheiro Falção</p>
-                      <hr/>
-                      <p>Backend Developer Pleno<br/>
-                      MOL - Mediação Online</p>
+                      <p>Fullstack Developer - Tempo Integral</p>
                      `,
   skills: [
     {
       name: 'HTML5',
-      level: 70
+      level: 90
     },
     {
       name: 'CSS3',
-      level: 60
+      level: 70
     },
     {
       name: 'Javascript',
@@ -40,7 +36,7 @@ module.exports = {
     },
     {
       name: 'Git',
-      level: 70
+      level: 80
     },
     {
       name: 'PHP',
