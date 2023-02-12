@@ -6,9 +6,11 @@ module.exports = {
   twitterUsername: 'manolocarvalho',
   githubUsername: 'TheNeoCarvalho',
   authorAvatar: '/images/perfil.jpg',
-  authorDescription: `<p>Estudante e amante de novas tecnologias.</p>
-                      <p>Fullstack Developer - Tempo Integral</p>
-                     `,
+  authorDescription: `
+          <p>Sou o Manoel Carvalho, tenho 38 anos, marido da Eulânia e pai do Vinícius. Hoje moro na cidade do Cedro (cidade pequena, no interior do Ceará). Sou formado em Mecatrônica Industrial e em Análise e Desenvolvimento de Sistemas e Pós-Graduação em: Engenharia de Sistemas, Engenharia e Planejamento DevOps e MBA em Gestão de Projetos de TI.</p>
+          <p>Estudante e amante de novas tecnologias.</p>
+          <p>Fullstack Developer - Tempo Integral</p>
+        `,
   skills: [
     {
       name: 'HTML5',
