@@ -55,12 +55,23 @@ module.exports = {
   jobs: [
     /* more jobs here */
     {
+      company: "Certsys - Tecnologia da Informação",
+      begin: {
+        month: 'jan',
+        year: '2021'
+      },
+      duration: null,
+      occupation: "FullStack Developer - Sênior",
+      description: "Nodejs - ReactJS - React Native"
+
+    },
+    {
       company: "MOL - Mediação Online",
       begin: {
         month: 'dez',
         year: '2020'
       },
-      duration: null,
+      duration: '1 ano',
       occupation: "Backend Developer - Pleno",
       description: "Desenvolvedor Backend com Nodejs"
 
