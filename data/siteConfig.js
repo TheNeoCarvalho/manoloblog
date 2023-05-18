@@ -6,12 +6,15 @@ module.exports = {
   twitterUsername: 'manolocarvalho',
   githubUsername: 'TheNeoCarvalho',
   authorAvatar: '/images/perfil2.jpeg',
-  authorDescription: `<p>Estudante e amante de novas tecnologias.</p>
-                      <p>Professor EMI/Coordenador<br/>
-                      EEEP Profª Maria Célia Pinheiro Falção</p>
-                      <hr/>
-                      <p>Backend Developer Pleno<br/>
-                      MOL - Mediação Online</p>
+  authorDescription: `
+                      <p>Sou o Manoel Carvalho, tenho 38 anos, marido da Eulânia e pai do   
+                      Vinícius. Hoje moro na cidade do Cedro (cidade pequena, no interior do  
+                      Ceará). Sou formado em Mecatrônica Industrial e em Análise e 
+                      Desenvolvimento de Sistemas e Pós-Graduação em: Engenharia de Sistemas, 
+                      Engenharia e Planejamento DevOps e MBA em Gestão de Projetos de TI.</p>
+
+                      <P>Estudante e amante de novas tecnologias.</P>
+                      <p>Fullstack Developer - Tempo Integral</p>
                      `,
   skills: [
     {
@@ -20,7 +23,7 @@ module.exports = {
     },
     {
       name: 'CSS3',
-      level: 70,
+      level: 80,
     },
     {
       name: 'Javascript',
@@ -28,7 +31,7 @@ module.exports = {
     },
     {
       name: 'NodeJs',
-      level: 70,
+      level: 80,
     },
     {
       name: 'React',
