@@ -172,6 +172,13 @@ module.exports = {
     },
     /* more portifolio items here */
   ],
+  produtos: [
+   {
+    title: "das",
+    image: "asdas",
+    link_affiliate: "dasdas"
+   }
+  ],
   social: {
     twitter: 'https://twitter.com/neo_carvalho',
     linkedin: 'https://www.linkedin.com/in/franciscomanoelcarvalho',
