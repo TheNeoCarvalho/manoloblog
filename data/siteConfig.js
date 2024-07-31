@@ -166,14 +166,14 @@ module.exports = {
       image: '/images/Cortexia.png',
       title: 'CortexIA',
       description:
-        'Plataforma geradora de conteúdo usando IA (GPT).',
+        'Plataforma geradora de textos, códigos, imagens e músicas usando IA (GPT 3.5) usando NextJS, Clerk Auth e Stripe',
       url: 'https://cortexia.pro',
     },
     {
       image: '/images/DevDial.png',
       title: 'Dev Dial',
       description:
-        'Plataforma de Webconferência',
+        'Plataforma de Webconferência usando NextJS e Clerk Auth',
       url: 'https://devdial.online',
     },
     {
