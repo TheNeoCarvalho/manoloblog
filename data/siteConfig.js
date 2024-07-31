@@ -164,7 +164,7 @@ module.exports = {
   portifolio: [
     {
       image: '/images/Cortexia.png',
-      title: 'CoxtexIA',
+      title: 'CortexIA',
       description:
         'Plataforma geradora de conteúdo usando IA (GPT).',
       url: 'https://cortexia.pro',
