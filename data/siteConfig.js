@@ -77,13 +77,24 @@ module.exports = {
     {
       company: 'EEEP Prof Gustavo Augusto Limna',
       begin: {
-        month: 'set',
-        year: '2012',
+        month: 'jan',
+        year: '2024',
       },
       duration: null,
       occupation: 'Professor EMI',
       description:
-        'Atualmente ministrando as disciplinas: Lógica de Programação, Programação Web I e II, Banco de Dados, PHP e MySQL.',
+        'Ministrando as disciplinas: Lógica de Programação, Programação Web (HTML/CSS/JS), Banco de Dados, PHP e MySQL.',
+    },
+    {
+      company: 'EEEP Leopoldina Gonçalves Quezado',
+      begin: {
+        month: 'set',
+        year: '2023',
+      },
+      duration: '1 ano',
+      occupation: 'Professor EMI',
+      description:
+        'Ministrava as disciplinas: Lógica de Programação, Programação Web (HTML/CSS/JS), Desenvolvimennto de Aplicações para Dispositivos Móveis, Qualiadade e Teste de Software, Banco de Dados, PHP e MySQL.',
     },
     {
       company: 'Certsys - Tecnologia da Informação',
