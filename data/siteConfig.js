@@ -1,29 +1,30 @@
 module.exports = {
   siteTitle: 'Oi! Eu sou o Manolo!',
   siteDescription: `Meu site portifólio`,
-  keyWords: ['gatsbyjs', 'react', 'react native', 'nodejs'],
+  keyWords: ['gatsbyjs', 'nextjs', 'react', 'react native', 'expo', 'nodejs', 'nestjs'],
   authorName: 'Manoel Carvalho',
   twitterUsername: 'manolocarvalho',
   githubUsername: 'TheNeoCarvalho',
   authorAvatar: '/images/perfil2.jpeg',
   authorDescription: `
                       <p>Sou o Manoel Carvalho, tenho 38 anos, marido da Eulânia e pai do   
-                      Vinícius. Hoje moro na cidade do Cedro (cidade pequena, no interior do  
+                      Vinícius e do Raul. Hoje moro na cidade do Cedro (cidade pequena, no interior do  
                       Ceará). Sou formado em Mecatrônica Industrial e em Análise e 
                       Desenvolvimento de Sistemas e Pós-Graduação em: Engenharia de Sistemas, 
                       Engenharia e Planejamento DevOps e MBA em Gestão de Projetos de TI.</p>
 
                       <P>Estudante e amante de novas tecnologias.</P>
                       <p>Fullstack Developer - Tempo Integral</p>
+                      <P>Professor de curso técnico.</P>
                      `,
   skills: [
     {
       name: 'HTML5',
-      level: 80,
+      level: 100,
     },
     {
       name: 'CSS3',
-      level: 80,
+      level: 90,
     },
     {
       name: 'Javascript',
@@ -34,16 +35,24 @@ module.exports = {
       level: 80,
     },
     {
+      name: 'NestJS',
+      level: 80,
+    },
+    {
       name: 'React',
-      level: 70,
+      level: 80,
+    },
+    {
+      name: 'NextJS',
+      level: 80,
     },
     {
       name: 'React Native',
-      level: 70,
+      level: 80,
     },
     {
       name: 'Git',
-      level: 70,
+      level: 80,
     },
     {
       name: 'PHP',
@@ -53,10 +62,29 @@ module.exports = {
       name: 'Laravel',
       level: 70,
     },
+    {
+      name: 'Docker',
+      level: 70,
+    },
+    {
+      name: 'AWS',
+      level: 70,
+    },
     /* more skills here */
   ],
   jobs: [
     /* more jobs here */
+    {
+      company: 'EEEP Prof Gustavo Augusto Limna',
+      begin: {
+        month: 'set',
+        year: '2012',
+      },
+      duration: null,
+      occupation: 'Professor EMI',
+      description:
+        'Atualmente ministrando as disciplinas: Lógica de Programação, Programação Web I e II, Banco de Dados, PHP e MySQL.',
+    },
     {
       company: 'Certsys - Tecnologia da Informação',
       begin: {
@@ -83,10 +111,10 @@ module.exports = {
         month: 'set',
         year: '2012',
       },
-      duration: null,
-      occupation: 'Professor EMI',
+      duration: '8 anos',
+      occupation: 'Coordenador/Professor EMI',
       description:
-        'Atualmente ministrando as disciplinas: Lógica de Programação, Programação Web I e II, Banco de Dados, PHP e MySQL.',
+        'Atuando com coordenador de curso e ministrando as disciplinas: Lógica de Programação, Programação Web I e II, Banco de Dados, PHP e MySQL.',
     },
     {
       company: 'FVS - Faculdade Vale do Salgado',
@@ -123,6 +151,20 @@ module.exports = {
     },
   ],
   portifolio: [
+    {
+      image: '/images/Cortexia.png',
+      title: 'CoxtexIA',
+      description:
+        'Plataforma geradora de conteúdo usando IA (GPT).',
+      url: 'https://cortexia.pro',
+    },
+    {
+      image: '/images/DevDial.png',
+      title: 'Dev Dial',
+      description:
+        'Plataforma de Webconferência',
+      url: 'https://devdial.online',
+    },
     {
       image: '/images/gostack.png',
       title: 'GoStack - Rocketseat.',
