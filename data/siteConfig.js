@@ -94,7 +94,7 @@ module.exports = {
       duration: '1 ano',
       occupation: 'Professor EMI',
       description:
-        'Ministrava as disciplinas: Lógica de Programação, Programação Web (HTML/CSS/JS), Desenvolvimennto de Aplicações para Dispositivos Móveis, Qualiadade e Teste de Software, Banco de Dados, PHP e MySQL.',
+        'Ministrava as disciplinas: Lógica de Programação, Programação Web (HTML/CSS/JS), Desenvolvimennto de Aplicações para Dispositivos Móveis, Qualidade e Teste de Software, Banco de Dados, PHP e MySQL.',
     },
     {
       company: 'Certsys - Tecnologia da Informação',
